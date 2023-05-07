@@ -8,7 +8,7 @@ load_dotenv()
 
 AGENT_NAME = os.getenv("AGENT_NAME", "my-agent")
 
-agent = Agent(AGENT_1)
+agent = Agent(AGENT_NAME)
 
 # Creates Pinecone Index
 agent.createIndex()
